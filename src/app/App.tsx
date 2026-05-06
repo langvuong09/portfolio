@@ -33,7 +33,7 @@ export default function App() {
               View Projects
             </a>
             <a
-              href="assets/CV_Cuong.pdf"
+              href="assets/CV.pdf"
               className="flex items-center gap-2 px-8 py-3 border-2 border-blue-500 text-blue-500 hover:bg-blue-500/10 rounded-lg transition-colors"
             >
               <ExternalLink className="w-5 h-5" />
@@ -82,10 +82,6 @@ export default function App() {
               <p className="text-gray-300">Java, C#, JavaScript, Python, C++</p>
             </div>
             <div className="p-6 bg-gradient-to-br from-purple-600/20 to-purple-800/20 border border-purple-500/30 rounded-xl hover:border-purple-500 transition-colors">
-              <h3 className="mb-3 text-xl font-bold text-purple-400">Frontend</h3>
-              <p className="text-gray-300">React, Next.js, Vue.js</p>
-            </div>
-            <div className="p-6 bg-gradient-to-br from-purple-600/20 to-purple-800/20 border border-purple-500/30 rounded-xl hover:border-purple-500 transition-colors">
               <h3 className="mb-3 text-xl font-bold text-purple-400">Backend</h3>
               <p className="text-gray-300">Spring Boot, .NET, Express.js, Django</p>
             </div>
@@ -112,8 +108,8 @@ export default function App() {
             <div className="bg-gray-800 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow border border-gray-700 hover:border-blue-500">
               <div className="relative h-48 overflow-hidden">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1637937459053-c788742455be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGUlMjBzY3JlZW58ZW58MXx8fHwxNzc4MDc5NDk2fDA&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="Watch Store Web"
+                  src="/assets/travel.jpg"
+                  alt="Smart Travel Support Web"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                 />
               </div>
@@ -126,7 +122,7 @@ export default function App() {
                   Tech Stack: Java, Spring Boot, Maven, MySQL, React, JavaScript, FastAPI (Python), REST, HTML/CSS, Git.
                 </p>
                 <a
-                  href="https://github.com/langvuong09/TravelSupportWeb.gi"
+                  href="https://github.com/langvuong09/TravelSupportWeb.git"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
@@ -140,8 +136,8 @@ export default function App() {
             <div className="bg-gray-800 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow border border-gray-700 hover:border-blue-500">
               <div className="relative h-48 overflow-hidden">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1742072594105-1efb79e6dd18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGUlMjBzY3JlZW58ZW58MXx8fHwxNzc4MDc5NDk2fDA&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="Training Management"
+                  src="/assets/clock.jpg"
+                  alt="Watch Store Web"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                 />
               </div>
@@ -168,8 +164,8 @@ export default function App() {
             <div className="bg-gray-800 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow border border-gray-700 hover:border-blue-500">
               <div className="relative h-48 overflow-hidden">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1742072593996-ebdc5d605a54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw1fHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGUlMjBzY3JlZW58ZW58MXx8fHwxNzc4MDc5NDk2fDA&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="Travel Support Web"
+                  src="/assets/chat.png"
+                  alt="Realtime Chat"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                 />
               </div>
