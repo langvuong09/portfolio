@@ -20,7 +20,7 @@ export default function App() {
             Hi, I'm <span className="text-blue-500">Cuong</span> 👋
           </h1>
           <p className="mb-8 text-xl md:text-2xl text-gray-300">
-            Software Engineering Student | Backend Developer
+            Software Engineering Student | Web Developer
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
@@ -80,6 +80,10 @@ export default function App() {
             <div className="p-6 bg-gradient-to-br from-blue-600/20 to-blue-800/20 border border-blue-500/30 rounded-xl hover:border-blue-500 transition-colors">
               <h3 className="mb-3 text-xl font-bold text-blue-400">Languages</h3>
               <p className="text-gray-300">Java, C#, JavaScript, Python, C++</p>
+            </div>
+            <div className="p-6 bg-gradient-to-br from-purple-600/20 to-purple-800/20 border border-purple-500/30 rounded-xl hover:border-purple-500 transition-colors">
+              <h3 className="mb-3 text-xl font-bold text-purple-400">Frontend</h3>
+              <p className="text-gray-300">React, Next.js, Vue.js</p>
             </div>
             <div className="p-6 bg-gradient-to-br from-purple-600/20 to-purple-800/20 border border-purple-500/30 rounded-xl hover:border-purple-500 transition-colors">
               <h3 className="mb-3 text-xl font-bold text-purple-400">Backend</h3>
