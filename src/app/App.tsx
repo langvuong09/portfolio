@@ -79,7 +79,7 @@ export default function App() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="p-6 bg-gradient-to-br from-blue-600/20 to-blue-800/20 border border-blue-500/30 rounded-xl hover:border-blue-500 transition-colors">
               <h3 className="mb-3 text-xl font-bold text-blue-400">Languages</h3>
-              <p className="text-gray-300">Java, C++, C#, JavaScript, Python</p>
+              <p className="text-gray-300">Java, C#, JavaScript, Python, C++</p>
             </div>
             <div className="p-6 bg-gradient-to-br from-purple-600/20 to-purple-800/20 border border-purple-500/30 rounded-xl hover:border-purple-500 transition-colors">
               <h3 className="mb-3 text-xl font-bold text-purple-400">Backend</h3>
@@ -87,11 +87,11 @@ export default function App() {
             </div>
             <div className="p-6 bg-gradient-to-br from-green-600/20 to-green-800/20 border border-green-500/30 rounded-xl hover:border-green-500 transition-colors">
               <h3 className="mb-3 text-xl font-bold text-green-400">Database</h3>
-              <p className="text-gray-300">MySQL, SQL Server, PostgreSQL, NoSQL</p>
+              <p className="text-gray-300">MySQL, PostgreSQL, NoSQL</p>
             </div>
             <div className="p-6 bg-gradient-to-br from-orange-600/20 to-orange-800/20 border border-orange-500/30 rounded-xl hover:border-orange-500 transition-colors">
-              <h3 className="mb-3 text-xl font-bold text-orange-400">Tools</h3>
-              <p className="text-gray-300">Docker, Postman, Figma, Canva, Draw.io</p>
+              <h3 className="mb-3 text-xl font-bold text-orange-400">Tools & Technologies</h3>
+              <p className="text-gray-300">Postman, GitHub, Visual Studio Code, Visual studio, Pycharm, IntelliJ, Eraser, Canva</p>
             </div>
           </div>
         </div>
@@ -114,12 +114,15 @@ export default function App() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="mb-3 text-2xl font-bold text-white">Watch Store Web</h3>
+                <h3 className="mb-3 text-2xl font-bold text-white">Smart Travel Support Web</h3>
                 <p className="mb-4 text-gray-400">
-                  An e-commerce web application for selling watches, allowing users to browse products, view details, and manage orders.
+                  A full-stack travel-assistance web application that helps users manage locations, bookings, and receive AI-based recommendations.
+                </p>
+                <p className="mb-4 text-gray-400">
+                  Tech Stack: Java, Spring Boot, Maven, MySQL, React, JavaScript, FastAPI (Python), REST, HTML/CSS, Git.
                 </p>
                 <a
-                  href="https://github.com/langvuong09/WatchStore.git"
+                  href="https://github.com/langvuong09/TravelSupportWeb.gi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
@@ -139,12 +142,15 @@ export default function App() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="mb-3 text-2xl font-bold text-white">Training Management</h3>
+                <h3 className="mb-3 text-2xl font-bold text-white">Watch Store Web</h3>
                 <p className="mb-4 text-gray-400">
-                  A training management system that helps manage courses, students, instructors, and learning progress in an educational environment.
+                  Developed a web-based Watch Store Management System to optimize operations for small to medium-sized retail watch stores
+                </p>
+                <p className="mb-4 text-gray-400">
+                  Tech Stack: C#, ASP.NET MVC, Entity Framework, MySQL, HTML5, CSS3, Bootstrap, jQuery.
                 </p>
                 <a
-                  href="https://github.com/Quin19FD/QuanLyDaoTao.git"
+                  href="https://github.com/langvuong09/WatchStore"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
@@ -164,12 +170,15 @@ export default function App() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="mb-3 text-2xl font-bold text-white">Travel Support Web</h3>
+                <h3 className="mb-3 text-2xl font-bold text-white">Realtime Chat</h3>
                 <p className="mb-4 text-gray-400">
-                  A smart tourism support website that uses GPS location to detect nearby food stalls and provide automatic audio introductions for visitors.
+                  A web-based real-time chat application that allows users to communicate instantly, manage friends, conversations, and share files.
+                </p>
+                <p className="mb-4 text-gray-400">
+                  Tech Stack: Node.js, Express.js, Socket.io, React, TypeScript, MySQL, JWT, Cloudinary, Git.
                 </p>
                 <a
-                  href="https://github.com/langvuong09/TravelSupportWeb.git"
+                  href="https://github.com/thankhanh/Express-realtime-chat.git"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
