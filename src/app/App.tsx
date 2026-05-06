@@ -33,7 +33,7 @@ export default function App() {
               View Projects
             </a>
             <a
-              href="assets/CV.pdf"
+              href="/assets/CV.pdf"
               className="flex items-center gap-2 px-8 py-3 border-2 border-blue-500 text-blue-500 hover:bg-blue-500/10 rounded-lg transition-colors"
             >
               <ExternalLink className="w-5 h-5" />
